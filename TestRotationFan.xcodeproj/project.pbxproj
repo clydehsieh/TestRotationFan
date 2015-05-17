@@ -1,0 +1,433 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EC0540181B08572500FBDA1F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EC0540171B08572500FBDA1F /* main.m */; };
+		EC05401B1B08572500FBDA1F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EC05401A1B08572500FBDA1F /* AppDelegate.m */; };
+		EC05401E1B08572500FBDA1F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC05401D1B08572500FBDA1F /* ViewController.m */; };
+		EC0540211B08572500FBDA1F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC05401F1B08572500FBDA1F /* Main.storyboard */; };
+		EC0540231B08572500FBDA1F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC0540221B08572500FBDA1F /* Images.xcassets */; };
+		EC0540261B08572500FBDA1F /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = EC0540241B08572500FBDA1F /* LaunchScreen.xib */; };
+		EC0540321B08572500FBDA1F /* TestRotationFanTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EC0540311B08572500FBDA1F /* TestRotationFanTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EC05402C1B08572500FBDA1F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EC05400A1B08572500FBDA1F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EC0540111B08572500FBDA1F;
+			remoteInfo = TestRotationFan;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EC0540121B08572500FBDA1F /* TestRotationFan.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestRotationFan.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC0540161B08572500FBDA1F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC0540171B08572500FBDA1F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EC0540191B08572500FBDA1F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EC05401A1B08572500FBDA1F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EC05401C1B08572500FBDA1F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		EC05401D1B08572500FBDA1F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		EC0540201B08572500FBDA1F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EC0540221B08572500FBDA1F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		EC0540251B08572500FBDA1F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		EC05402B1B08572500FBDA1F /* TestRotationFanTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestRotationFanTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC0540301B08572500FBDA1F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC0540311B08572500FBDA1F /* TestRotationFanTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestRotationFanTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EC05400F1B08572500FBDA1F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC0540281B08572500FBDA1F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EC0540091B08572500FBDA1F = {
+			isa = PBXGroup;
+			children = (
+				EC0540141B08572500FBDA1F /* TestRotationFan */,
+				EC05402E1B08572500FBDA1F /* TestRotationFanTests */,
+				EC0540131B08572500FBDA1F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EC0540131B08572500FBDA1F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EC0540121B08572500FBDA1F /* TestRotationFan.app */,
+				EC05402B1B08572500FBDA1F /* TestRotationFanTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EC0540141B08572500FBDA1F /* TestRotationFan */ = {
+			isa = PBXGroup;
+			children = (
+				EC0540191B08572500FBDA1F /* AppDelegate.h */,
+				EC05401A1B08572500FBDA1F /* AppDelegate.m */,
+				EC05401C1B08572500FBDA1F /* ViewController.h */,
+				EC05401D1B08572500FBDA1F /* ViewController.m */,
+				EC05401F1B08572500FBDA1F /* Main.storyboard */,
+				EC0540221B08572500FBDA1F /* Images.xcassets */,
+				EC0540241B08572500FBDA1F /* LaunchScreen.xib */,
+				EC0540151B08572500FBDA1F /* Supporting Files */,
+			);
+			path = TestRotationFan;
+			sourceTree = "<group>";
+		};
+		EC0540151B08572500FBDA1F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EC0540161B08572500FBDA1F /* Info.plist */,
+				EC0540171B08572500FBDA1F /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EC05402E1B08572500FBDA1F /* TestRotationFanTests */ = {
+			isa = PBXGroup;
+			children = (
+				EC0540311B08572500FBDA1F /* TestRotationFanTests.m */,
+				EC05402F1B08572500FBDA1F /* Supporting Files */,
+			);
+			path = TestRotationFanTests;
+			sourceTree = "<group>";
+		};
+		EC05402F1B08572500FBDA1F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EC0540301B08572500FBDA1F /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EC0540111B08572500FBDA1F /* TestRotationFan */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC0540351B08572500FBDA1F /* Build configuration list for PBXNativeTarget "TestRotationFan" */;
+			buildPhases = (
+				EC05400E1B08572500FBDA1F /* Sources */,
+				EC05400F1B08572500FBDA1F /* Frameworks */,
+				EC0540101B08572500FBDA1F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TestRotationFan;
+			productName = TestRotationFan;
+			productReference = EC0540121B08572500FBDA1F /* TestRotationFan.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EC05402A1B08572500FBDA1F /* TestRotationFanTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC0540381B08572500FBDA1F /* Build configuration list for PBXNativeTarget "TestRotationFanTests" */;
+			buildPhases = (
+				EC0540271B08572500FBDA1F /* Sources */,
+				EC0540281B08572500FBDA1F /* Frameworks */,
+				EC0540291B08572500FBDA1F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EC05402D1B08572500FBDA1F /* PBXTargetDependency */,
+			);
+			name = TestRotationFanTests;
+			productName = TestRotationFanTests;
+			productReference = EC05402B1B08572500FBDA1F /* TestRotationFanTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EC05400A1B08572500FBDA1F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "Chin-Hui Hsieh";
+				TargetAttributes = {
+					EC0540111B08572500FBDA1F = {
+						CreatedOnToolsVersion = 6.3.1;
+					};
+					EC05402A1B08572500FBDA1F = {
+						CreatedOnToolsVersion = 6.3.1;
+						TestTargetID = EC0540111B08572500FBDA1F;
+					};
+				};
+			};
+			buildConfigurationList = EC05400D1B08572500FBDA1F /* Build configuration list for PBXProject "TestRotationFan" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EC0540091B08572500FBDA1F;
+			productRefGroup = EC0540131B08572500FBDA1F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EC0540111B08572500FBDA1F /* TestRotationFan */,
+				EC05402A1B08572500FBDA1F /* TestRotationFanTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EC0540101B08572500FBDA1F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC0540211B08572500FBDA1F /* Main.storyboard in Resources */,
+				EC0540261B08572500FBDA1F /* LaunchScreen.xib in Resources */,
+				EC0540231B08572500FBDA1F /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC0540291B08572500FBDA1F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EC05400E1B08572500FBDA1F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC05401E1B08572500FBDA1F /* ViewController.m in Sources */,
+				EC05401B1B08572500FBDA1F /* AppDelegate.m in Sources */,
+				EC0540181B08572500FBDA1F /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC0540271B08572500FBDA1F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC0540321B08572500FBDA1F /* TestRotationFanTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EC05402D1B08572500FBDA1F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EC0540111B08572500FBDA1F /* TestRotationFan */;
+			targetProxy = EC05402C1B08572500FBDA1F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EC05401F1B08572500FBDA1F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EC0540201B08572500FBDA1F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EC0540241B08572500FBDA1F /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EC0540251B08572500FBDA1F /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EC0540331B08572500FBDA1F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EC0540341B08572500FBDA1F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EC0540361B08572500FBDA1F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TestRotationFan/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EC0540371B08572500FBDA1F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TestRotationFan/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		EC0540391B08572500FBDA1F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = TestRotationFanTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TestRotationFan.app/TestRotationFan";
+			};
+			name = Debug;
+		};
+		EC05403A1B08572500FBDA1F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = TestRotationFanTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TestRotationFan.app/TestRotationFan";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EC05400D1B08572500FBDA1F /* Build configuration list for PBXProject "TestRotationFan" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC0540331B08572500FBDA1F /* Debug */,
+				EC0540341B08572500FBDA1F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC0540351B08572500FBDA1F /* Build configuration list for PBXNativeTarget "TestRotationFan" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC0540361B08572500FBDA1F /* Debug */,
+				EC0540371B08572500FBDA1F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EC0540381B08572500FBDA1F /* Build configuration list for PBXNativeTarget "TestRotationFanTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC0540391B08572500FBDA1F /* Debug */,
+				EC05403A1B08572500FBDA1F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EC05400A1B08572500FBDA1F /* Project object */;
+}
