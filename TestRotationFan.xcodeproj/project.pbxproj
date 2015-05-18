@@ -14,6 +14,7 @@
 		EC0540231B08572500FBDA1F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC0540221B08572500FBDA1F /* Images.xcassets */; };
 		EC0540261B08572500FBDA1F /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = EC0540241B08572500FBDA1F /* LaunchScreen.xib */; };
 		EC0540321B08572500FBDA1F /* TestRotationFanTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EC0540311B08572500FBDA1F /* TestRotationFanTests.m */; };
+		EC05403C1B085A8400FBDA1F /* Screen Shot 2015-05-17 at 12.57.27.png in Resources */ = {isa = PBXBuildFile; fileRef = EC05403B1B085A8400FBDA1F /* Screen Shot 2015-05-17 at 12.57.27.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,7 @@
 		EC05402B1B08572500FBDA1F /* TestRotationFanTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestRotationFanTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC0540301B08572500FBDA1F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EC0540311B08572500FBDA1F /* TestRotationFanTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestRotationFanTests.m; sourceTree = "<group>"; };
+		EC05403B1B085A8400FBDA1F /* Screen Shot 2015-05-17 at 12.57.27.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Screen Shot 2015-05-17 at 12.57.27.png"; path = "TestRotationFan/Screen Shot 2015-05-17 at 12.57.27.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 		EC0540091B08572500FBDA1F = {
 			isa = PBXGroup;
 			children = (
+				EC05403B1B085A8400FBDA1F /* Screen Shot 2015-05-17 at 12.57.27.png */,
 				EC0540141B08572500FBDA1F /* TestRotationFan */,
 				EC05402E1B08572500FBDA1F /* TestRotationFanTests */,
 				EC0540131B08572500FBDA1F /* Products */,
@@ -202,6 +205,7 @@
 				EC0540211B08572500FBDA1F /* Main.storyboard in Resources */,
 				EC0540261B08572500FBDA1F /* LaunchScreen.xib in Resources */,
 				EC0540231B08572500FBDA1F /* Images.xcassets in Resources */,
+				EC05403C1B085A8400FBDA1F /* Screen Shot 2015-05-17 at 12.57.27.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
